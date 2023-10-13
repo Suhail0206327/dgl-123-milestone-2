@@ -17,10 +17,10 @@
             <p>_strategy</p>
             <nav class = "header-nav">
         <ul>
-         <li>   <a href = "index.php">home</a>      </li>
-         <li>   <a href = "staff.php">staff</a>      </li>
-         <li>   <a href = "statistics.php">statistics</a>      </li>
-         <li>   <a href = "about.php">about</a>      </li>
+         <li>   <a href = "/">home</a></li>
+         <li>   <a href = "/staff">staff</a>      </li>
+         <li>   <a href = "/statistics">statistics</a>      </li>
+         <li>   <a href = "/about">about</a>      </li>
         </ul>
         
      </nav>
