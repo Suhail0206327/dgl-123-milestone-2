@@ -34,10 +34,27 @@ font-family: 'Mr Dafoe', cursive; */
 
 }
 .header-nav{
+    background-color: blue;
     width: fit-content;
     height: 100%;
 
 }
+.header-nav ul{
+    color: white;
+    list-style: none;
+    
+}
+.header-nav ul li{
+    margin-right: 8px;
+    color: white;
+    display: inline;
+    float: left;
+}
+.header-nav ul li a{
+    color: white;
+
+}
+
 .header-sm{
     width: fit-content;
     height: 100%;
