@@ -10,6 +10,7 @@ a{
 }
 body{
     background-color: var(--firstColor);
+    height: 100vh;
 }
 :root {
     --firstColor: #dedddf;
@@ -84,4 +85,14 @@ font-family: 'Mr Dafoe', cursive; */
     background-color: gray;
     padding-bottom: 5px;
     border-bottom: solid var(--firstColor) 0.1rem;
+}
+/*main*/
+main{
+    height: 80%;
+}
+/*footer*/
+footer {
+    width: 100%;
+    height: 10%;
+    border-top: solid var(--secondColor) 1px;
 }
