@@ -40,6 +40,7 @@ font-family: 'Mr Dafoe', cursive; */
 
 }
 .header-nav ul{
+    margin-left: 32px;
     color: white;
     list-style: none;
     
@@ -51,8 +52,9 @@ font-family: 'Mr Dafoe', cursive; */
     float: left;
 }
 .header-nav ul li a{
+    
     color: white;
-
+    padding: 0px 10px;
 }
 
 .header-sm{
