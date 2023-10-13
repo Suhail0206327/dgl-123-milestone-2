@@ -8,7 +8,9 @@
 a{
     cursor: pointer;
 }
-
+body{
+    background-color: var(--firstColor);
+}
 :root {
     --firstColor: #dedddf;
     --secondColor: #212529;
@@ -19,46 +21,67 @@ a{
 font-family: 'Mr Dafoe', cursive; */
 /*header*/
 .header-main {
+    justify-content: space-between;
     display: flex;
     width: 100%;
     height: 60px;
     background-color: var(--secondColor);
 }
 .header-logo{
+    width: 60px;
     text-transform: capitalize;
     font-family: 'JetBrains', monospace;
     width: fit-content;
     height: 100%;
     color: var(--firstColor);
     display: flex;
+    
 
 }
+.header-logo p{
+    padding-left: 60px;
+    align-self: center;
+}
 .header-nav{
-    background-color: blue;
+    
+    
     width: fit-content;
     height: 100%;
 
 }
 .header-nav ul{
+    padding-top: 5px;
     margin-left: 32px;
-    color: white;
+    
     list-style: none;
     
 }
 .header-nav ul li{
     margin-right: 8px;
-    color: white;
+
     display: inline;
     float: left;
 }
 .header-nav ul li a{
     
-    color: white;
+  color: var(--firstColor);
+  text-decoration: none;
     padding: 0px 10px;
 }
 
 .header-sm{
+    margin-right: 32px;
+  
+    align-items: center;
+    display: flex;
+    color: var(--firstColor);
     width: fit-content;
     height: 100%;
-
+    justify-content: space-between;
+    width: 60px;
+}
+.header-nav ul li:hover{
+    background-color: gray;
+    padding-bottom: 5px;
+    border-bottom: solid var(--firstColor) 0.1rem;
 }

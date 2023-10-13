@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Mr+Dafoe&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class ="header-main">
@@ -24,7 +26,11 @@
      </nav>
         </div>
     
-     <div class="header-sm"></div>
+     <div class="header-sm">
+    
+     <i class="fa-solid fa-bell fa-shake"></i>
+     <i class="fa-solid fa-circle-user"></i>
+     </div>
     </header>
 </body>
 </html>
