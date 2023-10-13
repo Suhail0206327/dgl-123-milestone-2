@@ -5,9 +5,41 @@
 
     font-size: 62.5%;
 }
+a{
+    cursor: pointer;
+}
 
 :root {
     --firstColor: #dedddf;
     --secondColor: #212529;
     --thirdColor: #d8e2dc;
+}
+
+/* font-family: 'JetBrains Mono', monospace;
+font-family: 'Mr Dafoe', cursive; */
+/*header*/
+.header-main {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: var(--secondColor);
+}
+.header-logo{
+    text-transform: capitalize;
+    font-family: 'JetBrains', monospace;
+    width: fit-content;
+    height: 100%;
+    color: var(--firstColor);
+    display: flex;
+
+}
+.header-nav{
+    width: fit-content;
+    height: 100%;
+
+}
+.header-sm{
+    width: fit-content;
+    height: 100%;
+
 }
