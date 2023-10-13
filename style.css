@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.html {
+
+    font-size: 62.5%;
+}
+
+:root {
+    --firstColor: #dedddf;
+    --secondColor: #212529;
+    --thirdColor: #d8e2dc;
+}
