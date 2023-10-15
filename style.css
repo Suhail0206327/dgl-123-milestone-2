@@ -112,6 +112,25 @@ flex-direction: column;
 
 }
 .home div {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     color: var(--firstColor);
+}
+
+.button {
+ border: 1px solid white;
+background: none;
+padding: 0.5rem 1rem;
+font-size:1rem;
+font-family: 'JetBrains', monospace;
+margin: 10px;
+cursor: pointer;
+color: white;
+transform: 10s;
+
+}
+.button:hover{
+    background-color: var(--firstColor);
+    color: black;
 }

@@ -4,7 +4,7 @@
     <main class="home">
     <div>
     <h1>Welcome to _strategy!</h1>
-    <button>Lets Get Started</button>
+    <button class="button">Lets Get Started</button>
     </div>
     
     </main>

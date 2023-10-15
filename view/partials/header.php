@@ -16,7 +16,7 @@
         <div class ="header-logo">
             <p>_strategy</p>
             <nav class = "header-nav">
-        <ul>
+        <ul >
          <li>   <a href = "/">home</a></li>
          <li>   <a href = "/staff">staff</a>      </li>
          <li>   <a href = "/statistics">statistics</a>      </li>
