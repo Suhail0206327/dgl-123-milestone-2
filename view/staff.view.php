@@ -6,7 +6,7 @@
         <table>
 
             <th>FOH</th>
-        <?php for ( $i = 0; $i < $number_of_workers; $i++) {?>
+        <?php for ( $i = 0; $i < $number_of_workers/4; $i++) {?>
 
        
             <tr>
