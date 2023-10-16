@@ -23,9 +23,9 @@
                     <div class="face"></div>
                 </td>
                 <td>Myrtle Warren </td>
-                <td>floor mannager</td>
+                <td>floor manager</td>
                 <td>$<?= random_numberfunction(17,28) ?>/hr</td>
-                <td>$<?= random_numberfunction(0,365) ?> days </td>
+                <td><?= random_numberfunction(0,365) ?> days </td>
             </tr>
             
             <?php }?>
@@ -44,9 +44,9 @@
         <div class="face"></div>
     </td>
     <td>Rubeus Hagrid </td>
-    <td>Line cookd</td>
+    <td>Line cook</td>
     <td>$<?= random_numberfunction(17,28) ?>/hr</td>
-    <td>$<?= random_numberfunction(0,365) ?> days </td>
+    <td><?= random_numberfunction(0,365) ?> days </td>
 </tr>
 
 <?php }?>

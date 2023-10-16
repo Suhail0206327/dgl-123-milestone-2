@@ -168,7 +168,7 @@ tr:hover{
     border: solid var(--secondColor) 1px;
     border-radius: 50%;
 }
-.staff table tr{
+.staff tr{
     align-items: center;
     border-radius: 5px;
     padding: 0.6rem;
@@ -181,4 +181,12 @@ tr:hover{
 .staff tr:hover {
     background-color: whitesmoke;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+}
+
+/*statistics page*/
+.statistics {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 3rem;
 }
