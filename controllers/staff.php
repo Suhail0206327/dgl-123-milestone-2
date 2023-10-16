@@ -5,4 +5,6 @@ function random_numberfunction ($min,$max){
    return rand($min,$max);
 }
 
+
+
 require ('view/staff.view.php');

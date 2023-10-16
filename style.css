@@ -149,7 +149,7 @@ tr:hover{
     background-color: red;
 }
 .staff table {
-    
+    margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 5px;
     display: flex;
@@ -167,7 +167,7 @@ tr:hover{
     border: solid var(--secondColor) 1px;
     border-radius: 50%;
 }
-.staff tr{
+.staff table tr{
     align-items: center;
     border-radius: 5px;
     padding: 0.6rem;
