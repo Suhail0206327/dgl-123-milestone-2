@@ -22,7 +22,7 @@
                 <td >
                     <div class="face"></div>
                 </td>
-                <td>Sheryk</td>
+                <td>Myrtle Warren </td>
                 <td>floor mannager</td>
                 <td>$<?= random_numberfunction(17,28) ?>/hr</td>
                 <td>$<?= random_numberfunction(0,365) ?> days </td>
@@ -30,7 +30,27 @@
             
             <?php }?>
         </table>
+        <table>
 
+<th>Kitchen</th>
+
+
+
+<?php for ( $i = 0; $i < $number_of_workers/4; $i++) {?>
+
+
+<tr>
+    <td >
+        <div class="face"></div>
+    </td>
+    <td>Rubeus Hagrid </td>
+    <td>Line cookd</td>
+    <td>$<?= random_numberfunction(17,28) ?>/hr</td>
+    <td>$<?= random_numberfunction(0,365) ?> days </td>
+</tr>
+
+<?php }?>
+</table>
         
         
     </main>
