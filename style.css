@@ -187,6 +187,13 @@ tr:hover{
 .statistics {
     display: flex;
     flex-direction: column;
-    
+
     margin: 3rem;
+}
+.calendar{
+    border-radius: 5px;
+    padding: 1rem;
+    align-self: self-end;
+    background-color: var(--secondColor);
+    color: white;
 }
