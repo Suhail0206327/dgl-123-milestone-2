@@ -4,5 +4,5 @@ require_once("plugins/phpChart_Lite/conf.php");
 $currentDate = date('l, F j, Y') ;
 $currentMonth = date('m');
 $currentYear = date('Y');
-
+$name = 'Ben' ;
 require ('view/statistics.view.php');
