@@ -9,6 +9,7 @@ a{
     cursor: pointer;
 }
 body{
+    
     font-family: 'JetBrains Mono', monospace;
     background-color: var(--firstColor);
     height: 100vh;
@@ -117,7 +118,7 @@ flex-direction: column;
     align-items: center;
     color: var(--firstColor);
 }
-
+/*button*/
 .button {
  border: 1px solid white;
 background: none;
@@ -127,10 +128,35 @@ font-family: 'JetBrains', monospace;
 margin: 10px;
 cursor: pointer;
 color: white;
-transform: 10s;
+transition: 0.6s;
 
 }
 .button:hover{
     background-color: var(--firstColor);
     color: black;
+}
+
+/*staff*/
+.staff {
+    align-items: center;
+    margin: 5rem;
+}
+tr:hover{
+    transition: 8s;
+    background-color: red;
+}
+.staff table {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+}
+.face {
+    height: 3rem;
+    width: 3rem;
+    background-image: url('assets/harrypotter.jpg');
+    background-size: cover;
+    border: solid var(--secondColor) 1px;
+    border-radius: 50%;
 }
