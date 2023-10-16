@@ -4,14 +4,16 @@
     <main class="staff">
         <h1>Total number of employees: 256</h1>
         <table>
+
             <th>FOH</th>
+            
             <tr>
                 <td >
                     <div class="face"></div>
                 </td>
-                <td>name</td>
-                <td>name</td>
-                <td>name</td>
+                <td>Sheryk</td>
+                <td>floor mannager</td>
+                <td>$22/hr</td>
             </tr>
             <tr>
                 <td >
@@ -21,6 +23,7 @@
                 <td>name</td>
                 <td>name</td>
             </tr>
+            
         </table>
         
     </main>
