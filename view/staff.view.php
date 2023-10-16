@@ -13,7 +13,8 @@
                 </td>
                 <td>Sheryk</td>
                 <td>floor mannager</td>
-                <td>$<?=$random_salary?>/hr</td>
+                <td>$<?= random_numberfunction(17,28)?>/hr</td>
+                <td></td>
             </tr>
             <tr>
                 <td >
