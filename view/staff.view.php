@@ -1,8 +1,8 @@
 <?php require('partials/header.php');?>
-       
+      
        
     <main class="staff">
-        <h1>Total number of employees: 256</h1>
+        <h1>Total number of employees: <?= $number_of_workers ?></h1>
         <table>
 
             <th>FOH</th>
@@ -13,7 +13,7 @@
                 </td>
                 <td>Sheryk</td>
                 <td>floor mannager</td>
-                <td>$22/hr</td>
+                <td>$<?=$random_salary?>/hr</td>
             </tr>
             <tr>
                 <td >
