@@ -1,4 +1,7 @@
-comment on my css :
+a. 
+there I am using a calendar in my project and it is suggesting me to use some plugins instead.
+
+b . comment on my css :
 
 1. Use Semantic HTML Elements: Make sure you're using semantic HTML elements to structure your content. For example, instead of using a <div> with the class "header-main," you can use <header>. Semantically named HTML elements will improve accessibility and make your code more readable.
 
