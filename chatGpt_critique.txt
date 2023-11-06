@@ -1,0 +1,25 @@
+a. 
+there I am using a calendar in my project and it is suggesting me to use some plugins instead.
+
+b . comment on my css :
+
+1. Use Semantic HTML Elements: Make sure you're using semantic HTML elements to structure your content. For example, instead of using a <div> with the class "header-main," you can use <header>. Semantically named HTML elements will improve accessibility and make your code more readable.
+
+2. Combine Repeated Properties: You have multiple elements with properties like height: 100%;. Consider consolidating these common properties into a class that can be applied to multiple elements. This reduces repetition and makes it easier to make global changes.
+
+3. CSS Comments: You have some commented-out CSS code. If it's not needed, remove it to keep your CSS file clean. If you plan to use it later, consider adding comments to explain its purpose.
+
+4. Avoid Overly Specific Selectors: Some of your selectors are overly specific. For example, .header-logo p can simply be .header-logo if you want to apply styles to the whole logo section.
+
+5. Use CSS Variables Consistently: You've already defined CSS variables for your color scheme, which is great. Make sure you consistently use these variables throughout your CSS to maintain a consistent design and make it easier to update your color scheme.
+
+6. Responsive Design: Ensure your design is responsive. Test it on different screen sizes and devices to make sure it looks good everywhere.
+
+7. Image Optimization: If you have large images like 'assets/home.png' or 'assets/harrypotter.jpg,' consider optimizing them for the web to reduce page load times.
+
+Accessibility: Make sure your website is accessible. Ensure that there is sufficient contrast between text and background colors, and consider using ARIA attributes for better accessibility.
+
+
+
+
+
