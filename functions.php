@@ -36,8 +36,7 @@ function generate_calendar($month, $year) {
 }
 
 // Get the current month and year
-$currentMonth = date('m');
-$currentYear = date('Y');
+
 
 
 function dd($value) {
