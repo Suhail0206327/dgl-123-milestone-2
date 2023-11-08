@@ -224,3 +224,13 @@ tr:hover{
     display: flex;
     flex-direction: row;
 }
+.login-form button {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+.login-form div{
+    width: 0.5rem;
+}
