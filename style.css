@@ -19,6 +19,8 @@ body{
     --secondColor: #212529;
     --thirdColor: #d8e2dc;
     --backgroundColor:#E7EAF1;
+    --primaryColor: white;
+    --secondaryColor: black;
 }
 
 /* font-family: 'JetBrains Mono', monospace;
@@ -214,4 +216,11 @@ tr:hover{
 }
 .about div {
         padding: 0 5rem;
+}
+
+/*Login page*/
+.login-container {
+    background-color: var(--primaryColor);
+    display: flex;
+    flex-direction: row;
 }
