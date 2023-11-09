@@ -8,10 +8,10 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <title>Login Page</title>
 </head>
-<body>
+<body class = "login">
   <main class = "login-container" >
 
-<img src="assets\harrypotter.jpg">
+<div class = "login-image" ></div>
 <div class="login-form">
   <button>
   <i class="fa-solid fa-chevron-left"></i>
@@ -19,11 +19,12 @@
   <p>Back to website</p>
   </button>
   <h1>Welcome!</h1>
-<form>
-  <label for="fname">First name:</label><br>
+<form class="login-form-1 ">
+  <label for="fname">Email</label><br>
   <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
+  <label for="lname">password</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <input type="submit">
 </form>
 </div>
 
