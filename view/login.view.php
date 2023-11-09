@@ -9,7 +9,7 @@
   <title>Login Page</title>
 </head>
 <body class = "login">
-  <main class = "login-container" >
+  <main class = "login-container">
 
 <div class = "login-image" ></div>
 <div class="login-form">
@@ -20,10 +20,10 @@
   </button>
   <h1>Welcome!</h1>
 <form class="login-form-1 ">
-  <label for="fname">Email</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">password</label><br>
-  <input type="text" id="lname" name="lname"><br>
+  <label for="email">Email</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="password">password</label><br>
+  <input type="password" id="password" name="password"><br>
   <input type="submit">
 </form>
 </div>
