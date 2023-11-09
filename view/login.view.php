@@ -19,12 +19,22 @@
   <p>Back to website</p>
   </button>
   <h1>Welcome!</h1>
+  <a>Create a free account</a>
 <form class="login-form-1 ">
   <label for="email">Email</label><br>
   <input type="text" id="email" name="email"><br>
   <label for="password">password</label><br>
   <input type="password" id="password" name="password"><br>
-  <input type="submit">
+  <a>Forgot password?</a>
+  <input class = " primary-button" type="submit" value="Log in">
+  <button alt class="secondary-button">
+  <img width="22" height="22" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
+ <p>Login in with Facebook</p>
+ </button>
+ <button alt class="secondary-button">
+ <img width="22" height="22" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>
+ <p>Login in with Google</p>
+ </button>
 </form>
 </div>
 
