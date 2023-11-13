@@ -1,3 +1,14 @@
+<?php 
+
+$config = require('config.php');
+$db = new Database($config,'root', 'suhail@1');
+ if ($_SERVER['REQUEST_METHOD']=='POST'){
+  $db->query('INSERT INTO users( email , password) VALUES (:email, :password)', [
+    'email' => $_POST['email'],
+    'password' => $_POST['password'],
+  ]);
+ }
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,18 +32,19 @@
   <h1>Welcome!</h1>
   <a>Create a free account</a>
 
-<form class="login-form-1 ">
+<form  method = "POST" class="login-form-1 ">
+  
   <label for="email">Email</label><br>
   <input type="text" id="email" name="email"><br>
   <label for="password">password</label><br>
   <input type="password" id="password" name="password"><br>
   <a>Forgot password?</a>
-  <input class = " primary-button" type="submit" value="Log in">
+  <input href="controllers/index.php" class = " primary-button" type="submit" value="Log in">
   <button alt class="secondary-button">
   <img width="20" height="20" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
  <p>Login in with Facebook</p>
  </button>
- <button method="post" class="secondary-button">
+ <button  class="secondary-button">
  <img width="20" height="20" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>
  <p>Login in with Google</p>
  </button>
