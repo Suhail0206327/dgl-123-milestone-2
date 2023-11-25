@@ -5,7 +5,8 @@ $db = new Database($config);
 
 $errors = [];
 if($_SERVER['REQUEST_METHOD']== 'POST') {
-    if(strlen($_POST['password']) < 8) {
+
+    if(strlen(trim($_POST['password'])) < 8) {
         $errors['body'] = 'The password should be atleast 8 characters';
         }
         if(strlen($_POST['password'])>10) {
