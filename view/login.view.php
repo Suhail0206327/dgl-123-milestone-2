@@ -29,10 +29,10 @@
 <form  method = "POST" class="login-form-1 ">
   
   <label for="email">Email</label><br>
-  <input type="text" id="email" name="email"><br>
+  <input type="text" id="email" name="email" require ><br>
   <label for="password">password</label><br>
-  <input type="password" id="password" name="password"><br>
-  <a>Forgot password?</a>
+  <input type="password" id="password" name="password" require ><br>
+  <a>Forgot password?</a> 
   <input href="controllers/index.php" class = " primary-button" type="submit" value="Log in">
   <button alt class="secondary-button">
   <img width="20" height="20" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
