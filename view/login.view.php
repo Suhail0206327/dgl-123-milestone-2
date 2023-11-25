@@ -26,14 +26,14 @@
   <h1>Welcome!</h1>
   <a>Create a free account</a>
 
-<form  method = "POST" class="login-form-1 ">
+<form  type = "submit" method = "POST" class="login-form-1 ">
   
   <label for="email">Email</label><br>
   <input type="email" id="email" name="email" require value="<?= $_POST['email']?? '' ?>"><br>
   <label for="password">password</label><br>
   <input type="password" id="password" name="password" require value = "<?= $_POST['password'] ?? ''?>"><br>
   <a>Forgot password?</a> 
-  <input href="controllers/index.php" class = " primary-button" type="submit" value="Log in">
+  <input  class = " primary-button" type="submit" value="Log in">
   <button alt class="secondary-button">
   <img width="20" height="20" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
  <p>Login in with Facebook</p>
