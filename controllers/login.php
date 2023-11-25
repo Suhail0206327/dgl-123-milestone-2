@@ -3,14 +3,15 @@ require 'validator.php';
 $config = require('config.php');
 $db = new Database($config);
 
-$email = $_POST['email'];
-$password = $_POST['password'];
-$users = $db->query('select * from users where email = :email',[
-    'email' => $email]);
+
+
     
 $errors = [] ;
 if($_SERVER['REQUEST_METHOD']== 'POST') {
-
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $users = $db->query('select * from users where email = :email',[
+        'email' => $email]);
     if(!Validator::password($_POST['password'])) {
         
         $errors['body'] = 'The password should be atleast 6 and less than 10 characters';
