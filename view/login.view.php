@@ -41,9 +41,14 @@
  <button  class="secondary-button">
  <img width="20" height="20" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>
  <p>Login in with Google</p>
+ 
  </button>
 </form>
+<p><?= $errors['body'] ?? '' ?></p>
 </div>
+
+
+
 
   </main>
 </body>
