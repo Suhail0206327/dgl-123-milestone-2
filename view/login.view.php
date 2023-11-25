@@ -31,7 +31,7 @@
   <label for="email">Email</label><br>
   <input type="text" id="email" name="email" require value="<?= $_POST['email']?? '' ?>"><br>
   <label for="password">password</label><br>
-  <input type="password" id="password" name="password" require ><br>
+  <input type="password" id="password" name="password" require value = "<?= $_POST['password'] ?? ''?>"><br>
   <a>Forgot password?</a> 
   <input href="controllers/index.php" class = " primary-button" type="submit" value="Log in">
   <button alt class="secondary-button">
