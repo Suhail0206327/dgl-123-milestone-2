@@ -29,7 +29,7 @@
 <form  method = "POST" class="login-form-1 ">
   
   <label for="email">Email</label><br>
-  <input type="text" id="email" name="email" require value="<?= $_POST['email']?? '' ?>"><br>
+  <input type="email" id="email" name="email" require value="<?= $_POST['email']?? '' ?>"><br>
   <label for="password">password</label><br>
   <input type="password" id="password" name="password" require value = "<?= $_POST['password'] ?? ''?>"><br>
   <a>Forgot password?</a> 
