@@ -1,4 +1,5 @@
 <?php
+// session_start();
 require 'validator.php';
 $config = require('config.php');
 $db = new Database($config);
@@ -10,14 +11,13 @@ $errors = [] ;
 if($_SERVER['REQUEST_METHOD']== 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $users = $db->query('select * from users where email = :email',[
-        'email' => $email]);
-    if(!Validator::password($_POST['password'])) {
+ 
+    if(!Validator::password($password)) {
         
         $errors['body'] = 'The password should be atleast 6 and less than 10 characters';
         }
     
-        if(!Validator::email($_POST['email'])) {
+        if(!Validator::email($email)) {
             $errors['body'] = 'Please provide a valid email';
         }
       
@@ -37,13 +37,13 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
                   ]);    
                 
                   
-                  $_SESSION ['user'] = [
-                    'email' => $email
-                  ];
+                  $_SESSION ['email'] =  $email;
+                  header("Location: /home");
             }
         }
         
 }
+
 
 
 

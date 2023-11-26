@@ -24,9 +24,11 @@
   <p>Back to website</p>
   </button>
   <h1>Welcome!</h1>
-  <a>Create a free account</a>
+  <a href="/register"> Create a free account</a>
 
-<form  type = "submit" method = "POST" class="login-form-1 ">
+<form  action = ""
+ 
+    type = "submit" method = "POST" class="login-form-1 ">
   
   <label for="email">Email</label><br>
   <input type="email" id="email" name="email" require value="<?= $_POST['email']?? '' ?>"><br>
@@ -39,7 +41,9 @@
  <p>Login in with Facebook</p>
  </button>
  <button  class="secondary-button">
- <img width="20" height="20" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/>
+ <img width="20" height="20" src="https://img.icons8.com/color/48/google-logo.png" .
+ 
+ alt="google-logo"/>
  <p>Login in with Google</p>
  
  </button>

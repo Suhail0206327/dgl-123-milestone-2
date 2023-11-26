@@ -5,4 +5,13 @@
 //    $config = require('config.php');
 //   dd($_SERVER);
 
-   require('router.php');
+
+// require('router.php');
+//  $router = new router();
+  require ('router.php');
+
+
+
+
+
+//   $router->route($uri,$method);

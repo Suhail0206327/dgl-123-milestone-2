@@ -30,6 +30,10 @@
     <div class="header-sm">
    
     <i class="fa-solid fa-bell fa-shake"></i>
+    <?php if ($_SESSION['user'] ?? false) : ?>
+        <img scr = "assets/harrypotter.jpg">
+        <?php else : ?>
     <i class="fa-solid fa-circle-user"></i>
+    <?php endif; ?>
     </div>
    </header>
