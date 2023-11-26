@@ -4,8 +4,8 @@
     <main class="staff">
         <h1>Total number of employees: <?= $number_of_workers ?></h1>
         <div class = "staff-button-container" >
-        <button class = "staff-button" >Kitchen</button>
-        <button class = "staff-button"> </button>
+        <button class = "button5" >Kitchen</button>
+        <button class = "button5"> Front House </button>
         </div>
         
         <table>
