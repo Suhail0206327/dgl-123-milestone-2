@@ -7,4 +7,9 @@ function random_numberfunction ($min,$max){
 
 
 
+if($_SERVER['REQUEST_METHOD']== 'POST') {
+   header("Location: /create/staff");
+}
+
+
 require ('view/staff.view.php');
