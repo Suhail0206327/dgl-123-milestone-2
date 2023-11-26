@@ -29,27 +29,14 @@
             
             <?php }?>
         </table>
-        <table>
-
-<th>Kitchen</th>
-
-
-
-<?php for ( $i = 0; $i < $number_of_workers/4; $i++) {?>
-
-
-<tr>
-    <td >
-        <div class="face"></div>
-    </td>
-    <td>Rubeus Hagrid </td>
-    <td>Line cook</td>
-    <td>$<?= random_numberfunction(17,28) ?>/hr</td>
-    <td><?= random_numberfunction(0,365) ?> days </td>
-</tr>
-
-<?php }?>
-</table>
+       
+        <div>
+            <h2>Hire a new staff</h2>
+            <form type = "submit" method = "POST">
+            <input  class = "button5" type="submit" value="Hire">
+            </form>
+          
+        </div>
         
         
     </main>
