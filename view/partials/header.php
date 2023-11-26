@@ -18,7 +18,7 @@
             <p>_strategy</p>
             <nav class = "header-nav">
         <ul >
-         <li>   <a href = "/">home</a></li>
+         <li>   <a href = "/home">home</a></li>
          <li>   <a href = "/staff">staff</a>      </li>
          <li>   <a href = "/statistics">statistics</a>      </li>
          <li>   <a href = "/about">about</a>      </li>

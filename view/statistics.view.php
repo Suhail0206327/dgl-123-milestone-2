@@ -6,7 +6,7 @@
 <div class = "statistics-container">
     <h2>Hey <?=$name ?>,<br>how is it going!</h2>
 <div class = "calendar">
-<?= generate_calendar($currentMonth, $currentYear); ?>
+
 </div>
 </div>
 <div>
@@ -14,8 +14,7 @@
    Analyise yesterdays sale;
    </h2> 
 <?php 
-$pc = new C_PhpChartX(array(array(11, 9, 5, 12, 14)),'basic_chart');
-$pc->draw();
+
 ?>
 </div>
 

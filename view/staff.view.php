@@ -3,17 +3,16 @@
        
     <main class="staff">
         <h1>Total number of employees: <?= $number_of_workers ?></h1>
+        <div class = "staff-button-container" >
+        <button class = "staff-button" >Kitchen</button>
+        <button class = "staff-button"> </button>
+        </div>
+        
         <table>
 
             <th>FOH</th>
         
-            <!-- <tr>
-                <td></td>
-                <td>name</td>
-                <td>position</td>
-                <td>wage</td>
-                <td>total days worked</td>
-            </tr> -->
+   
         
             <?php for ( $i = 0; $i < $number_of_workers/4; $i++) {?>
          
