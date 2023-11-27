@@ -7,7 +7,8 @@ return [
     '/about' => 'controllers/about.php',
     '/home' => 'controllers/index.php',
     '/register' => 'controllers/register.php',
-    '/create/staff' => 'controllers/staff_create.php'
+    '/create/staff' => 'controllers/staff_create.php',
+    '/delete/staff' => 'controllers/staff_delete.php'
    ];
 
 

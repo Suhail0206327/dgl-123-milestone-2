@@ -10,21 +10,32 @@
         
         <table>
 
-            <th>FOH</th>
+           
         
-   
+           
         
-            <?php for ( $i = 0; $i < $number_of_workers/4; $i++) {?>
+            <?php for ( $i = 0; $i < $count; $i++) {
+                $staff = $staffs[$i];
+                ?>
          
          
             <tr>
                 <td >
                     <div class="face"></div>
                 </td>
-                <td>Myrtle Warren </td>
-                <td>floor manager</td>
-                <td>$<?= random_numberfunction(17,28) ?>/hr</td>
-                <td><?= random_numberfunction(0,365) ?> days </td>
+                <td><?= $staff['name'] ?> </td>
+                <td><?= $staff['position']?></td>
+                <td>$<?= $staff['pay'] ?>/hr</td>
+                <td><?= $staff['email'] ?>  </td>
+                <td>
+        <form  action="delete/staff" method="POST">
+      
+      <input type="hidden" id="id" name="id" value = <?=$staff['id']?> required>
+      <button class = "button6" type="submit">Delete</button>
+  </form>
+
+</td>
+
             </tr>
             
             <?php }?>
