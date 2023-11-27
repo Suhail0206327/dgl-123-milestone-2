@@ -7,7 +7,7 @@ return
         'port' => 3306,
         'dbname' => 'n0206327_strategym3',
         'charset' => 'utf8mb4',
-        'password' => 'suhail@1'
+        'password' => 'dgl123@dgl123'
 
 
       
