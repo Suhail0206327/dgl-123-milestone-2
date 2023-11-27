@@ -8,19 +8,17 @@ if ($_SERVER['REQUEST_METHOD']== 'POST') {
     $email = $_POST['email'];
     $position = $_POST['positon']; 
     $wage = $_POST['pay'];
-    $file_name = $_FILES["image"]["name"];
-    $file_tmp = $_FILES["image"]["tmp_name"];
-    $image = file_get_contents($file_tmp);
-    $db->query('INSERT INTO kitchen( name ,positon, pay,image, email  ) VALUES (:name, :positon,  :pay,  :image,:email,)', [
+    // $file_name = $_FILES["image"]["name"];
+    // $file_tmp = $_FILES["image"]["tmp_name"];
+    // $image = file_get_contents($file_tmp);
+    $db->query('INSERT INTO kitchen( name, position, email, pay) VALUES( :name , :position , :email, :pay)', [
       'name' => $name,
-      'positon' =>$position,
-      'pay' => $wage,
-      'image' => $image,
-        'email' => $email,
-      
-       
+      'position' =>$position,
+      'email' => $email,
+      'pay' => $wage, 
       ]);    
-    
+
+        header("Location: /staff");
 }
 
 require 'view/create_staff.view.php';
