@@ -23,4 +23,4 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
 }
 
 
-require ('view/staff.view.php');
+require ('view/staff/index.view.php');

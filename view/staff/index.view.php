@@ -1,4 +1,4 @@
-<?php require('partials/header.php');?>
+<?php require('view/partials/header.php');?>
       
        
     <main class="staff">
@@ -51,4 +51,4 @@
         
         
     </main>
-    <?php require('partials/footer.php');?>
+    <?php require('view/partials/footer.php');?>

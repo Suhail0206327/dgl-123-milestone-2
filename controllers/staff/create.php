@@ -21,4 +21,4 @@ if ($_SERVER['REQUEST_METHOD']== 'POST') {
         header("Location: /staff");
 }
 
-require 'view/create_staff.view.php';
+require 'view/staff/create.view.php';

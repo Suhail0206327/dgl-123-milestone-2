@@ -2,13 +2,13 @@
 return [
 
     '/' => 'controllers/login.php',
-    '/staff' =>'controllers/staff.php',
+    '/staff' =>'controllers/staff/index.php',
     '/statistics' =>'controllers/statistics.php',
     '/about' => 'controllers/about.php',
     '/home' => 'controllers/index.php',
     '/register' => 'controllers/register.php',
-    '/create/staff' => 'controllers/staff_create.php',
-    '/delete/staff' => 'controllers/staff_delete.php'
+    '/create/staff' => 'controllers/staff/create.php',
+    '/delete/staff' => 'controllers/staff/delete.php'
    ];
 
 
